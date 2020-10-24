@@ -28,3 +28,12 @@ nav ul li:hover {
     nav ul {flex-direction: column;}
     nav ul li {text-align: center;}
 }
+
+.carousel {
+  height: auto;
+  width: auto;
+  margin: auto 10px 10px;
+
+    align-content: center
+}
+
