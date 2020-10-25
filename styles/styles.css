@@ -24,22 +24,26 @@ nav ul li:hover {
     color: white;
 }
 
-@media all and (max-width: 800px){
-    nav ul {flex-direction: column;}
-    nav ul li {text-align: center;}
-}
 
 .carousel {
   height: auto;
   width: auto;
-  margin: auto 10px 10px;
+  margin: auto;
+  max-width: 800px;
 
-    align-content: center
+  align-content: center;
 }
 
+/*
 
-.carousel-item image {
+.carousel-item img {
     height: 60vh;
     object-fit: cover;
 }
 
+*/
+
+@media all and (max-width: 800px){
+    nav ul {flex-direction: column;}
+    nav ul li {text-align: center;}
+}
