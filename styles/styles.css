@@ -37,3 +37,9 @@ nav ul li:hover {
     align-content: center
 }
 
+
+.carousel-item image {
+    height: 60vh;
+    object-fit: cover;
+}
+
